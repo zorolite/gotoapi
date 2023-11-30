@@ -12,9 +12,9 @@ const fetch_keys = async() => {
     const response = await axios.get(ENCRYPTION_KEYS_URL);
     const res = response.data;
     return {
-        iv: CryptoJS.enc.Utf8.parse(res.iv),
-        key: CryptoJS.enc.Utf8.parse(res.key),
-        second_key: CryptoJS.enc.Utf8.parse(res.second_key),
+        key: CryptoJS.enc.Utf8.parse('37911490979715163134003223491201'),
+    second_key: CryptoJS.enc.Utf8.parse('54674138327930866480207815084989'),
+    iv: CryptoJS.enc.Utf8.parse('3134003223491201'),
     };
 };
 
