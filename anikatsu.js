@@ -4,10 +4,10 @@ const axios = require('axios');
 const ajax_url = 'https://ajax.gogo-load.com/';
 const { generateEncryptAjaxParameters, decryptEncryptAjaxResponse } = require('./goload.js');
 
-const GOGOANIMETV = 'https://gogoanimetv.ga'
+const GOGOANIMETV = 'https://anitaku.to'
 const USER_AGENT = require('./utils.js');
-const BASE_URL = 'https://gogoanime.ee';
-const BASE_URL2 = 'https://gogoanime.gg/';
+const BASE_URL = 'https://anitaku.to';
+const BASE_URL2 = 'https://anitaku.to/';
 const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
 
 const Referer = 'https://gogoplay.io/';
